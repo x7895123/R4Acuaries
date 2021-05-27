@@ -1,4 +1,3 @@
-# 
 library(ChainLadder)
 RAA
 cum2incr(RAA)
