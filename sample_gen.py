@@ -26,8 +26,8 @@ classes = ["101", "102", "301", "305", "306", "307", "308"]
 
 with open(csv_filename, 'w') as f:
     f.write(header)
-    start = 1000000
-    stop = start + 2000000
+    start = 10000
+    stop = start + 20000
     for i in tqdm(range(start, stop)):
         policy_no = i
         rand_class = random.choice(classes)
